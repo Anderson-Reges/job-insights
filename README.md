@@ -1,10 +1,29 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Job insights é projeto que implementa um app de analises de dados sobre empregos, desenvolvido durante meus estudos na [Trybe](https://www.betrybe.com/)
+
+## 👨‍💻 O que foi ser desenvolvido
+
+Neste projeto eu implementei análises a partir de um conjunto de dados sobre empregos. Minhas implementações foram incorporadas a um aplicativo Web desenvolvido com Flask.
+tive a oportunidade de escrever testes para a implementaçôes e criei um rota de acesso no Flask.
+
+## Técnologias usadas
+
+<a href="https://www.python.org/" target="_blank">![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)</a>
+
+## Instalando Dependências
+
+> Crie um ambiemte virtual e ative:
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+```
+
+> Agora instale as dependencias:
+```bash
+python3 -m pip install -r dev-requirements.txt
+```
+
+## Executando aplicação
+
+> Para executar o app Flask
+```bash
+flask run
+```
